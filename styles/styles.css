@@ -1,0 +1,18 @@
+.set2 img {
+    width: 100%;
+    /* vw is viewport width */
+
+}
+
+@media screen and (min-width:900px) {
+    .set2{
+        width: 66.6vw;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .set2{
+        width: 33.3vw;
+    }
+    
+}

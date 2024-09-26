@@ -19,6 +19,21 @@
             images/puppy-3.0.jpg 3x" 
             src="images/puppy-1.0.jpg" alt="A white puppy standing in short grass">
         </section>
+        <section class="set2">
+          <!-- the x above stands for pixel density
+           tge w velow stands for width(and with respond to bot image size and pixel density)
+           the width you enter msut correspond to the image's actual width (in pixels) -->
+          <img 
+          srcset="
+          images/puppy-1.0.jpg 1000w,
+          images/puppy-2.0.jpg 2000w,
+          images/puppy-3.0.jpg 3000w
+          "
+          sizes="
+          (min-width:900px) 66.6vw,
+          (min-width:1200px) 33.3vw"
+          src="images/puppy-1.0.jpg" alt="a white puppy standing in short grass">
+        </section>
     </main>
     <footer>
         <p>Image by <a href="https://pixabay.com/users/cparks-1593059/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5124947">Cindy Parks</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5124947">Pixabay</a></p>
